@@ -5,7 +5,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
     defaultConfig {
-        applicationId "testproject.com.places"
+        applicationId "com.places"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
@@ -66,8 +66,4 @@ dependencies {
     compile 'junit:junit:4.12'
     compile 'org.mockito:mockito-core:2.0.57-beta'
 
-    // Leak-canary
-    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
-    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
-    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
 }

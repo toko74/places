@@ -35,7 +35,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="0dp"
 		android:layout_weight="0.5"
-		class="testproject.com.places.view.MapPlacesFragment"/>
+		class="com.places.view.MapPlacesFragment"/>
 
 	<View
 		android:layout_width="match_parent"
@@ -47,6 +47,6 @@
 		android:layout_width="match_parent"
 		android:layout_height="0dp"
 		android:layout_weight="0.5"
-		class="testproject.com.places.view.PlacesListFragment"/>
+		class="com.places.view.PlacesListFragment"/>
 
 </LinearLayout>

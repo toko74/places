@@ -10,7 +10,7 @@
 		android:layout_width="0dp"
 		android:layout_height="match_parent"
 		android:layout_weight="0.65"
-		class="testproject.com.places.view.MapPlacesFragment"/>
+		class="com.places.view.MapPlacesFragment"/>
 
 
 	<View
@@ -24,6 +24,6 @@
 		android:layout_width="0dp"
 		android:layout_height="match_parent"
 		android:layout_weight="0.35"
-		class="testproject.com.places.view.PlacesListFragment"/>
+		class="com.places.view.PlacesListFragment"/>
 
 </LinearLayout>
