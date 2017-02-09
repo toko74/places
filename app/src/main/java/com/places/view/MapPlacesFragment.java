@@ -239,7 +239,6 @@ public class MapPlacesFragment extends android.support.v4.app.Fragment implement
 	private synchronized void updateMapMarkers(){
 		if (markerOptionsList.isEmpty()) return;
 
-		map.clear();
 		for (Map.Entry<String, MarkerOptions> entry : markerOptionsList.entrySet()){
 			Marker marker = map.addMarker(entry.getValue());
 			placeMarkers.put(entry.getKey(), marker);
